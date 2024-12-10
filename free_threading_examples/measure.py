@@ -86,6 +86,10 @@ def main():
     _run_sample(True, "example3", n_tries)
     print("GIL: off, example3")
     _run_sample(False, "example3", n_tries)
+    print("GIL: off, example4")
+    _run_sample(False, "example4", n_tries)
+    print("GIL: off, example5")
+    _run_sample(False, "example5", n_tries)
 
 
 if __name__ == "__main__":
