@@ -7,6 +7,7 @@ def process_main(filename):
     with open(filename, "w") as f:
         for _ in range(10000000):
             f.write(f"{r.random()}")
+            f.flush()
 
 
 def main():
